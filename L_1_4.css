@@ -1,0 +1,118 @@
+/*-----------Assignment1---------------------*/
+
+/*
+
+    -Any element with class "title"
+    .title {
+    }
+    
+    -Any element with id "nav"
+    #nav {
+    }
+    
+    -Any "div" element
+    div {
+    }
+    
+    -Any "h2" element 
+    h2 {
+    }
+
+*/
+
+/*-----------Assignment2---------------------*/
+
+/* 
+    
+    -External style
+    <link rel="stylesheet" href="css/file.css" />
+
+    
+    -Internal style 
+    <style>
+    p {
+        color: red;
+    }
+    </style>
+
+
+    -Inline Style
+    <p style="color: blue;">This Is Our Paragraph</p>
+
+*/
+
+/*-----------Assignment3---------------------*/
+
+/*
+
+    <link rel="stylesheet" href="assets/css/master.css" />
+
+*/
+
+/*-----------Assignment4---------------------*/
+
+/* 
+
+    <link rel="stylesheet" href="../source/css/main.css" />
+
+*/
+
+/*-----------Assignment5---------------------*/
+
+/* 
+
+    -Valid
+    ._user-name {
+    }
+
+    -Valid
+    .-user-name {
+    }
+
+    -Invalid
+    .1user-name {
+    }
+
+    -Invalid
+    .@user-name {
+    }
+
+    -Invalid
+    .user@name {
+    }
+
+    -Valid
+    ._user10name {
+    }
+
+    -Valid
+    .u {
+    }
+
+*/
+
+/*-----------Assignment6---------------------*/
+
+/*
+
+    -Bad
+    .USERNAME {
+    }
+
+    -Bad
+    .UserName {
+    }
+
+    -Good
+    .user-name {
+    }
+
+    -Bad
+    .userName {
+    }
+
+    -Bad
+    .usernameprofile {
+    }
+
+*/
