@@ -1,0 +1,69 @@
+*{
+    font-family: sans-serif;
+}
+
+.shape1,
+.shape2,
+.shape3{
+
+    display: inline-block;
+    background-color: #eee;
+    outline: solid 5px black; 
+    margin: 5px;
+    padding:15px;
+
+}
+
+.shape1{
+
+    border: 5px solid red;
+    
+}
+
+.shape2{
+
+    border-style: solid;
+    border-width: 5px;
+    border-color: blue green;
+    
+}
+
+.shape3{
+    border-style: dashed;
+    border-width: 5px;
+    border-color: red green blue yellow;
+    
+}
+
+/*--------------------------------*/
+
+/*Assignment2*/
+.element{
+
+    width: 400px;
+    background-color: #eee;
+    border-left: 5px solid;
+    outline: 10px solid #eee;
+    margin: 30px 10px;
+    padding-left: 10px;
+    line-height: 30px;
+    
+}
+
+.element-1{
+
+    border-left-color: #E91E63;
+
+}
+
+.element-2 {
+
+    visibility: hidden;
+
+}
+
+.element-3{
+
+    border-left-color: #009688;
+
+}
