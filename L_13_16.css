@@ -1,0 +1,37 @@
+.parent .child .title{
+
+    color: red;
+
+}
+
+.parent > .title{ /* Direct Child, no parents in between */
+
+    color: blue;
+
+}
+
+.parent p,
+div.title{ /*A div element that has a class named "title" */
+
+    color: green;
+
+}
+
+/*--------------------------------*/
+
+/*Assignment2*/
+.Title{  
+    
+    background-color: rgb(155, 52, 52);
+    color: white;
+    margin-bottom: 20px;
+    font-size: 20px;
+    padding: 10px; 
+    width: fit-content;
+    max-width: 400px; 
+    height: fit-content;
+    max-height: 50px;
+
+}
+
+
