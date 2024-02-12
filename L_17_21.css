@@ -1,0 +1,85 @@
+.assignment1{
+
+    font-family: sans-serif;
+    font-size: 100px;
+    text-align: center;
+    padding: 50px;
+    text-shadow: 2px 2px 0px #F44336, 4px 4px 0px #2196F3, 6px 6px 0px #9C27B0;
+
+}
+
+/*--------------------------------*/
+
+/*Assignment2*/
+
+.one,
+.two,
+.three{
+
+    font-size: 60px;
+    text-align: center;
+
+}
+
+.one{
+
+    text-transform: uppercase;
+
+}
+
+.two{
+    
+    text-transform: capitalize;
+
+}
+
+.three{
+
+    text-transform: lowercase;
+
+}
+
+/*--------------------------------*/
+
+/*Assignment3*/
+.lorem1,
+.lorem2,
+.lorem3{
+
+    font-family: sans-serif;
+    font-size: 18px;
+    background-color: #eee;
+    width: 400px;
+    padding: 15px;
+    margin: 0 auto 20px;
+
+}
+
+.lorem3{
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+/*--------------------------------*/
+
+/*Assignment4*/
+
+a{
+
+    font-family: sans-serif;
+    font-size: 80px;
+    color: white;
+    text-transform: capitalize;
+    text-decoration: none;
+    display: block;
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+    background-color: #009688;
+    margin: 0 auto;
+    border-bottom: 10px solid #00514A ;
+    
+}
