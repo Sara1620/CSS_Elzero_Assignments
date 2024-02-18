@@ -1,0 +1,90 @@
+:root{
+
+    font-size: 20px;
+
+}
+
+.assignment1{
+
+    margin: 0 auto;
+    width: 600px;
+    border: 4px solid #FF5722;
+    padding: 25px;
+    font-size: 40px;
+
+}
+
+.assignment1 p{
+
+    margin: 0;
+    text-align: center;
+    background-color: #ddd;
+    border: inherit;
+    padding: inherit;
+    
+}
+
+/*--------------------------------*/
+
+/*Assignment2*/
+
+.one,
+.two,
+.three{
+    
+    text-align: center;
+    font-size: 40px;
+
+}
+
+.one{
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+
+}
+
+.two{
+
+    font-family: 'Cairo', sans-serif;
+    font-weight: 700;
+
+}
+
+.three{
+
+        font-family: "Jomhuria", serif;
+        font-weight: 400;
+    
+}
+
+/*--------------------------------*/
+
+/*Assignment3*/
+.four,
+.five,
+.six{
+    
+    text-align: center;
+
+}
+
+/*1rem=root font size (here the root font size is changed to 20px)*/
+.four{
+
+    font-size: 2.5rem; /*50px (50/20 = 2.5rem)*/   
+
+}
+
+.five{
+
+    font-size: 2rem; /*40px*/
+
+}
+
+.six{
+
+    font-size: 1.5rem; /*30px*/
+    
+}
