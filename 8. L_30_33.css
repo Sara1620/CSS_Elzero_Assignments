@@ -1,0 +1,241 @@
+
+.blue,
+.green,
+.red,
+.black{
+    
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    
+}
+
+.black{ 
+
+    background-color: black;
+    top: 20px;
+    z-index: 1;
+
+}
+
+.blue{
+
+    background-color: #03A9F4;
+    z-index: 2;
+
+}
+
+.green{
+
+    background-color: #009688;
+    left: 20px;
+    top: 20px;
+    z-index: 3;
+
+}
+
+.red{
+
+    background-color: #F44336;
+    left: 40px;
+    top: 40px;
+    z-index: 4;
+
+}
+
+
+
+.empty-space{
+
+    height: 200px;
+    
+}
+
+/*--------------------------------*/
+
+/*Assignment2*/
+.lorem{
+
+    width: 400px;
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    font-family: sans-serif;
+    line-height: 30px;
+    background-color: rgba(169, 169, 169, 0.457);
+    border-color: #F44336 #2196F3;
+    border-width: 2px;
+    border-style: solid;
+    position: relative;
+
+}
+
+.lorem span{
+
+    position: absolute;
+    background-color: #2196F3;
+    padding: 0 14px;
+    color: white;
+    font-size: 20px;
+
+}
+
+
+.top-left, .bottom-left{
+
+    left: -20px;  
+    border-right: 2px solid #F44336;
+
+}
+
+.top-right, .bottom-right{
+
+    right: -20px;
+    border-left: 2px solid #F44336;
+
+}
+
+.top-left,
+.top-right{
+
+    top: -15px;
+
+}
+
+.bottom-left,
+.bottom-right{
+
+    bottom: -15px;
+
+}
+
+/*--------------------------------*/
+
+/*Assignment3*/
+.main{
+
+    width: 400px;
+    margin: auto;    
+    font-family: sans-serif;
+
+}
+
+.html,
+.css,
+.js{
+
+    background-color: #eee; ;
+    list-style: none;
+    margin-bottom : 20px;
+    padding: 15px 10px 5px;
+
+}
+
+ol,
+.js ul{
+    
+    margin-top: 10px;
+
+}
+
+ol li,
+.js ul li{
+
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 10px;
+
+}
+
+
+.css ol li{
+
+    list-style-type: upper-roman;
+
+}
+
+.js ul{
+
+    padding-left: 0;
+
+}
+
+
+.js ul li{
+
+    list-style-position: inside;
+
+}
+
+/*--------------------------------*/
+
+/*Assignment4*/
+
+table{
+
+    width: 700px;
+    margin: auto;
+    border-spacing: 0.5px;
+    font-family: sans-serif;
+    border-bottom: 2px solid #009688;
+
+}
+
+caption{
+
+    font-weight: bold;
+    margin: 15px 0;
+
+}
+
+img{
+
+    width: 50px;
+    height: 50px;
+
+}
+
+th,
+td{
+
+    border: 0.5px solid white;
+    text-align: center;
+    padding: 15px;
+
+}
+
+thead th{
+
+    background-color: #404040;
+    color: white;
+    font-weight: bold;
+    
+}
+
+tbody td{
+
+    background-color: #eee;
+
+}
+
+.view,
+.delete{
+
+    padding: 6px;
+    border: none;
+    color: white;
+    cursor: pointer;
+
+}
+
+.view{
+
+    background-color: #03A9F4;
+
+}
+
+.delete{
+
+    background-color: #E91E63;
+
+}
