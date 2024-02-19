@@ -1,0 +1,129 @@
+*{
+
+    font-family: sans-serif;
+
+}
+
+.one,
+.two,
+.three{
+
+    width: 300px;
+    height: 60px;
+    margin: 15px auto;
+    text-align: center;
+    line-height: 60px; /*Same as div's height to be centered vertically*/
+
+}
+
+.one{
+
+    background-color: #eee;
+
+}
+
+.two{
+
+    background-color: red;
+
+}
+
+.three{
+
+    background-color: #eee;
+
+}
+
+
+/****************Assignmnet2**************/
+.hello{
+
+    width: fit-content;
+    height: 60px;
+    margin: 0 auto;
+    padding-right: 25px;
+    background-color: #ccc;
+    text-align: center;
+    line-height: 60px;
+    font-size: 20px;
+
+}
+
+.hello::first-letter{
+    content: "";
+    background-color: red;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 10px; 
+    margin-left: -15px;     
+    margin-right: 10px;
+
+}
+
+/***************Assignment3***************/
+
+p[data-person]{
+
+    background-color: #eee;
+    width: 400px;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 15px;
+    border-left: 5px solid #E91E63;
+    position: relative;
+    margin: 20px auto;
+
+}
+
+p[data-person]::before{
+
+    content: attr(data-person);
+    background-color: #ddd;
+    width: 80px;
+    height: 50px;
+    text-align: center;
+    position: absolute;
+    left: -120px;
+
+}
+
+
+p[data-person]::after{
+
+    content: "";
+    border-style: solid;
+    border-width: 15px;
+    border-color: transparent #E91E63 transparent transparent;
+    position: absolute;
+    left: -32px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/***************Assignment4***************/
+
+.product-title{
+
+    background-color: #efefef;
+    width: 300px;
+    border-right: 5px solid #F44336;
+    padding: 10px;
+    counter-increment: sequence;
+    position: relative;
+    margin: 10px auto;
+
+}
+
+.product-title::before{
+
+    content: counter(sequence);
+    background-color: #F44336;
+    color: white;   
+    padding: 10px 12px;
+    text-align: center;
+    position: absolute;
+    left: -30px;
+    top: 0;
+
+}
