@@ -1,0 +1,313 @@
+*{
+
+    font-family: sans-serif;
+
+}
+.elzero{
+
+    width: 100px;
+    height: 100px; 
+    border-radius:50% ;
+    -webkit-border-radius:50% ;
+    -moz-border-radius:50% ;
+    -ms-border-radius:50% ;
+    -o-border-radius:50% ;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FF5722;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #eee;
+    box-shadow: 6px 0px 0px 0 #FF5722, -6px 0px 0px 0 #03A9F4;
+
+}
+
+/*-------------------------Assignment2----------------------------*/
+
+.parent-assignment2{
+
+    width: 600px;
+    height: 300px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #eee;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+
+}
+
+.parent-assignment2 div{
+
+    width: calc( (100% - 60px) / 3);
+    padding: 10px 0;
+    text-align: center;
+    background-color: #F44336;
+    color: white;
+    font-size: 20px;
+
+}
+
+
+/*-------------------------Assignment3----------------------------*/
+
+.parent-assignment3{
+
+    width: 600px;
+    height: 300px;
+    margin: 50px auto;
+    padding: 10px;
+    background-color: #eee;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.parent-assignment3 div{
+
+    background-color: #607D8B;
+    color: white;
+    font-size: 20px;
+    width: calc( (100% - 40px) / 3);
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.parent-assignment3 .one{
+
+    order: 6;
+    align-self: flex-end;
+
+}
+
+.parent-assignment3 .two{
+
+    order: 5;
+
+}
+
+.parent-assignment3 .three{
+
+    order: 2;
+    align-self: flex-start;
+
+}
+
+.parent-assignment3 .four{
+
+    order: 3;
+
+}
+
+.parent-assignment3 .five{
+
+    order: 4;
+
+}
+
+.parent-assignment3 .six{
+
+    order: 1;
+
+}
+
+
+/*-------------------------Assignment4----------------------------*/
+
+
+.parent-assignment4{
+
+    width: 600px;
+    height: 300px;
+    margin: 50px auto;
+    padding: 10px;
+    background-color: #eee;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+
+.parent-assignment4 div{
+
+    background-color: #009688;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc( (100% - 40px) / 3);
+    padding: 0 10px;
+    
+}
+
+
+.parent-assignment4 .two{
+
+    align-self: flex-start;
+    width: 50%;
+
+}
+
+/*-------------------------Assignment5----------------------------*/
+
+.parent-assignment5{
+
+    background-color: #eee;
+    font-size: 20px;
+    width: 600px;
+    height: 300px;
+    margin: 20px auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.parent-assignment5 div{
+    
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc( (100% - 140px) / 4);
+    height: 50%;
+
+}
+
+.parent-assignment5 .one{
+
+    background-color: #FF9800;
+
+}
+
+.parent-assignment5 .two{
+
+    background-color: #8BC34A;
+    align-self: flex-end;
+
+}
+
+.parent-assignment5 .three{
+
+    background-color: #795548;
+
+}
+
+.parent-assignment5 .four{
+
+    order: -1;
+    background-color: #673AB7;
+    align-self: flex-end;
+
+}
+
+
+/*-------------------------Assignment6----------------------------*/
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+:root{
+
+    --padding: 10px;
+
+}
+
+.page{
+
+    background-color: #eee;
+    width: 1000px;
+    height: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.header,
+.main-area{
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header,
+.footer{
+
+    height:  calc( (100% - var(--padding) ) * 0.1 );
+
+}
+
+.main-area{
+
+    height:  calc( (100% - var(--padding) ) * 0.8 );
+
+}
+
+.logo,
+ul,
+.main-area div,
+.footer{
+
+    background-color: #ddd;
+    padding: var(--padding);
+
+}
+
+.logo{
+
+    width:  calc( (100% - var(--padding) ) * 0.1 );;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+ul{
+
+    width:  calc( (100% - var(--padding) ) * 0.9 );;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+ul li{
+    margin-left: 10px;
+}
+
+.content{
+
+    width: calc( (100% - var(--padding) ) * 0.7 );
+
+}
+
+.sidebar{
+    
+    width:  calc( (100% - var(--padding) ) * 0.3 );
+    
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
