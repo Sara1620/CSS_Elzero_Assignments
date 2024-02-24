@@ -1,0 +1,66 @@
+.elzero{
+
+    width: 600px;
+    height: 50px;
+    margin: 20px auto; 
+    background-color: #eee;
+    border: 6px solid;
+    border-image: linear-gradient(
+                to right,
+                #F44336 20%,
+                #2196F3 20%,
+                #2196F3 40%,
+                #4CAF50 40%,
+                #4CAF50 60%,
+                #E91E63 60%,
+                #E91E63 80%,
+                #673AB7 80%
+                ) 1;
+
+    text-align: center;
+    line-height: 50px;
+    letter-spacing: 4px;
+    font-weight: bold;
+
+}
+
+.elzero::first-letter{
+
+    content: "";
+    color: #F44336;
+
+}
+
+
+/*-------------------------Assignment2----------------------------*/
+
+input{
+
+    width: 600px;
+    margin: 0 auto 10px;
+    display: block;
+    border: none; /*It has border by default*/
+    border-bottom: 3px solid;
+    border-image: linear-gradient(
+                    to right,
+                    #F44336 50%,
+                    #009688 50%
+                    ) 1;
+    background-color: #F4F4F4;
+    padding: 12px 0 12px 12px;
+    outline: none;
+    font-size: 16px;
+}
+
+.field1{
+
+    caret-color: #F44336;
+
+}
+
+.field2,
+.field3{
+
+    color: #00000062;
+
+}
