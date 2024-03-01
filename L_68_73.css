@@ -1,0 +1,192 @@
+*{
+    --background-color1: #FF5722;
+    --background-color2: #009688;
+    --color: white;
+    --margin: 150px auto 0;
+}
+
+.assignment1{
+    width: 130px;
+    height: 75px;
+    margin: var(--margin);
+    color: var(--color);
+    background-color: var(--background-color1);
+    text-align: center;
+    line-height: 75px;
+    font-size: 26px;
+    position: relative;
+}
+
+.assignment1::before,
+.assignment1::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: var(--background-color1);
+    top: 0;
+    left: 0;
+}
+
+.assignment1::before{
+    z-index: -1;
+    transform: skew(-15deg,-15deg);
+}
+
+.assignment1::after{
+    z-index: -2;
+    transform: skew(15deg,15deg);
+}
+
+/*****************Assignment2***************/
+.assignment2{
+    width: 150px;
+    height: 75px;
+    margin: var(--margin);
+    color: var(--color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    position: relative;
+}
+
+.assignment2::before{
+    content:"";
+    width: 100%;
+    height: 0;
+    position: absolute;
+    left: -60px;
+    top: -10px;
+    border-top: 100px solid var(--background-color2);
+    border-left: 50px solid transparent;
+    z-index: -1; 
+}
+
+.assignment2::after{
+    content: "";
+    position: absolute;
+    width: 23px;
+    height: 100px;
+    transform: skewX(26deg);
+    background-color: var(--background-color2);
+    left: -66px;
+    top: -10px;
+}
+
+/****************Assignment2-Different****************/
+.assignment2-different{
+    width: 150px;
+    height: 100px;
+    margin: var(--margin);
+    color: var(--color);
+    background-color: var(--background-color2);
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;    
+}
+
+.assignment2-different::before{
+    content: "";
+    width: 40px;
+    height: 100%;
+    position: absolute;
+    left: -20px;
+    top: 0;
+    background-color: inherit;
+    transform: skewX(20deg);
+}
+
+.assignment2-different::after{
+    content: "";
+    width: 20px;
+    height: 100px;
+    position: absolute;
+    left: -48px;
+    top: 0;
+    transform: skewX(20deg);
+    background-color: inherit;
+}
+
+/**************Assignment3***************/
+/* transform:  matrix(3, 0.2679, 0, 3, 20, 100);
+
+scaleX=3 skewY=0.2679 skewX=0  scaleY=3  translateX= 20 translateY=100  */
+
+/************Assignment4***************/
+.assignment4{
+    width: 200px;
+    height: 200px;
+    margin: var(--margin);
+    background-color: #607D8B;
+    border-bottom: 10px solid black;
+    position: relative;
+}
+
+.assignment4::after{
+    content: "";
+    position: absolute;
+    top: -70px;
+    left: 30px;
+    transform: rotate(-45deg);
+    width: 137px;
+    height: 137px;
+    background-color: black;
+    border-left: 5px solid white;
+    border-bottom: 5px solid white;
+
+}
+.assignment4::before{
+    content: "Elzero";
+    color: white;
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+}
+
+/*************Assignment5**********************/
+
+.assignment5{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: var(--margin);
+    background-color: beige;
+    padding: 20px;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+}
+
+.assignment5::before,
+.assignment5::after{
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.assignment5::after{
+    content: "Front";
+    background-color: #FA3664;
+    backface-visibility: hidden; /*its back will be hidden*/
+}
+
+.assignment5::before{
+    content: "Back";
+    background-color: #1692FC;
+    transform: rotateY(180deg);
+    /* transform: rotateX(180deg); */
+}
+
+.assignment5:hover{
+    transform: rotateY(180deg);
+    /* transform: rotateX(180deg); */
+}
