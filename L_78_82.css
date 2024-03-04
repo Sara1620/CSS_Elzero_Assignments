@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+body>div{
+    margin: 50px 0 0;
+}
+
+.Assignment1 div[class="main red"]{
+    color: red;
+}
+
+/*************Assignment2**********************/
+
+.Assignment2 .parent > .child:last-child{
+    color: red;
+}
+
+/*************Assignment3**********************/
+
+.Assignment3 .parent .baby:only-child{
+    color: red;
+}
+
+/*************Assignment4**********************/
+
+.Assignment4 > div[title]:not(.no-need){
+    color:red
+}
+
+/*************Assignment5**********************/
+
+.Assignment5 div:nth-of-type(2) div[title="Elzero"]{
+    color:red;
+}
+
+/*************Assignment6**********************/
+
+.Assignment6 div:not(.no-need) div:nth-last-of-type(2){
+    color:red
+}
+
+/*************Assignment7**********************/
+
+.Assignment7 div:nth-child(1) div:nth-of-type(2){
+    color:red;
+}
+
+/*************Assignment8**********************/
+
+.Assignment8 :not(:first-child):not(:last-child):not(h3) {
+    color: red;
+}
