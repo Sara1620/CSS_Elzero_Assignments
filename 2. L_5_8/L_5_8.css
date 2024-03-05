@@ -43,7 +43,7 @@ div{
 .assign-2-shape-3,
 .assign-2-shape-4{
 
-    background-image: URL(images/css_assignment_5_8.png);
+    background-image: URL(../images/css_assignment_5_8.png);
     background-color: #eee;
     width: 400px;
     height: 400px;
@@ -82,7 +82,7 @@ div{
 .assign-3-shape-3,
 .assign-3-shape-4{
     
-    background-image: URL(images/css_assignment_5_8.png);
+    background-image: URL(../images/css_assignment_5_8.png);
     background-color: #eee;
     height: 400px;
     width: 400px;
@@ -117,7 +117,7 @@ div{
 .assign-4-shape-3,
 .assign-4-shape-4{
 
-    background-image: URL(images/css_assignment_5_8.png);
+    background-image: URL(../images/css_assignment_5_8.png);
     background-repeat: no-repeat;
     background-color: #eee;
     height: 400px;
